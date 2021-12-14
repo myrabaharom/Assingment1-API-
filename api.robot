@@ -34,4 +34,17 @@ DeleteApi
     wait until page contains element   ${yes_btn}
     Click Element   ${yes_btn}
 
+DeactivateAccount
+    wait until page contains element   ${deactivate_btn}
+    Click Element   ${deactivate_btn}
+    wait until page contains element  ${continue_btn}
+    Click Element  ${continue_btn}
+    Click Element  ${first_choice}
+    Click Element  ${second_choice}
+    Click Element  ${third_choice}
+    wait until page contains element   ${continue_btn}
+    Click Element  ${continue_btn}
+    wait until page contains element   ${really_deactivate}
+
+
 
